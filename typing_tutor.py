@@ -88,7 +88,7 @@ def print_summary(records):
     print("=== Summary ===")
     for record in records:
         print(record["sentence"], "->", str(record["accuracy"]) + "%", "in", record["time"], "seconds")
-        print("Average accuracy:", str(average_accuracy(records)) + "%")
+    print("Average accuracy:", str(average_accuracy(records)) + "%")
 
 
 
