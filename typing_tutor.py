@@ -93,6 +93,6 @@ def print_summary(records):
 
 
 if __name__ == "__main__":
-    print("Typing Tutor - type each senetence and press Enter.")
+    print("Typing Tutor - type each sentence and press Enter.")
     results = run_tutor(SENTENCES)
     print_summary(results)
